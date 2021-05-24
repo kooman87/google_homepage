@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<style>
+    .parent {
+        position: relative;
+        width: 1000px;
+        //text-align: right;
+    }
+    .child1 {
+        width: 1500px;
+        text-align: center;
+    }
+    .child2 {
+        position: absolute;
+        bottom: 0px;
+    }
+    .nav_footer {
+        background-color: rgb(243, 242, 242);
+        padding: 15px 15px 15px 15px;
+    }
+    li {
+        display: inline;
+    }
+    button {
+        background-color: rgb(248, 247, 247);
+        border: none;
+        border-radius: 3px;
+        padding: 10px 10px 10px 10px;
+
+    }
+    textarea {
+        border-radius: 20px;
+        width: 500px;
+        border-color: rgb(228, 227, 227);
+    }
+    #hover_shadow {
+        box-shadow: 1px 1px 1px 1px;
+        background-color: grey; 
+    }
+    a{
+        text-decoration: none;
+    }
+    .header_right{
+        text-align: left;
+    }
+</style>
+<main>
+    <div class="parent">
+        <ul>
+            <li><a href="about.asp">About</a></li>
+            <li><a href="store.asp">Store</a></li>
+            <li><a href="gmail.asp">Gmail</a></li>
+            <li><a href="images.asp">Images</a></li>
+            <li>Google Apps</li>
+            <li class="header_right">Gmail Account Image</li>
+        </ul>
+    </div>
+    <body class="child1">
+        <p><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></p>
+
+        <p><textarea></textarea></p>
+
+        <button a.hover>Google Search</button>
+
+        <button>I'm Feeling Lucky</button>
+
+        <p><a href="https://about.google/intl/all_us/one-and-many/?utm_source=google&utm_medium=hpp&utm_campaign=EN-US">Celebrating the diverse stories of Asian and Pacific Islander communities</p>
+    </body>
+    <div class="child2">
+        <ul class="nav_footer">
+            <li><a href="advertising.asp">Advertising</a></li>
+            <li><a href="business.asp">Business</a></li>
+            <li><a href="search.asp">How Search works</a></li>
+            <li>Carbon neutral since 2007</li>
+            <li><a href="privacy.asp">Privacy</a></li>
+            <li><a href="terms.asp">Terms</a></li>
+            <li><a href="settings.asp">Settings</a></li>
+        </ul>
+    </div>
+</main>
