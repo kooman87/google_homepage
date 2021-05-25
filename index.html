@@ -1,79 +1,70 @@
-<!DOCTYPE html>
 <style>
-    .parent {
-        position: relative;
-        width: 1000px;
-        //text-align: right;
+    a{
+        text-decoration: none; 
+        color: rgb(102, 101, 101);
     }
-    .child1 {
-        width: 1500px;
+    .container {
+        padding-top: 13px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 4% 4% 76% 4% 4% 4% 4%;
+        font-size: 14;
+        font-family: sans-serif;
+    }
+    .container2 {
         text-align: center;
-    }
-    .child2 {
-        position: absolute;
-        bottom: 0px;
-    }
-    .nav_footer {
-        background-color: rgb(243, 242, 242);
-        padding: 15px 15px 15px 15px;
-    }
-    li {
-        display: inline;
-    }
-    button {
-        background-color: rgb(248, 247, 247);
-        border: none;
-        border-radius: 3px;
-        padding: 10px 10px 10px 10px;
-
+        
     }
     textarea {
         border-radius: 20px;
         width: 500px;
         border-color: rgb(228, 227, 227);
     }
-    #hover_shadow {
-        box-shadow: 1px 1px 1px 1px;
-        background-color: grey; 
+    button {
+        background-color: rgb(248, 247, 247);
+        border: none;
+        border-radius: 3px;
+        padding: 10px 10px 10px 10px;
     }
-    a{
-        text-decoration: none;
-    }
-    .header_right{
-        text-align: left;
+    .container3 {
+        padding-top: 5px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 8% 8% 8% 52% 8% 8% 8%;
+        position: absolute;
+        bottom: 0px;
+        font-size: 14;
+        background-color: rgb(243, 242, 242);
+        padding: 15px 0px 15px 0px;
+        font-family: sans-serif;
+        text-align: center;
     }
 </style>
 <main>
-    <div class="parent">
-        <ul>
-            <li><a href="about.asp">About</a></li>
-            <li><a href="store.asp">Store</a></li>
-            <li><a href="gmail.asp">Gmail</a></li>
-            <li><a href="images.asp">Images</a></li>
-            <li>Google Apps</li>
-            <li class="header_right">Gmail Account Image</li>
-        </ul>
+    <div class="container">
+        <div class="d1"><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></div>
+        <div class="d2"><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></div>
+        <div class="d3"></div>
+        <div class="d4"><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></div>
+        <div class="d5"><a href="https://www.google.com/imghp?hl=en&ogbl">Images</a></div>
+        <div class="d6">Apps</div>
+        <div class="d7">My</div>
     </div>
-    <body class="child1">
+    <body class="container2">
         <p><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></p>
-
         <p><textarea></textarea></p>
-
-        <button a.hover>Google Search</button>
-
+        <button>Google Search</button>
         <button>I'm Feeling Lucky</button>
 
-        <p><a href="https://about.google/intl/all_us/one-and-many/?utm_source=google&utm_medium=hpp&utm_campaign=EN-US">Celebrating the diverse stories of Asian and Pacific Islander communities</p>
+
     </body>
-    <div class="child2">
-        <ul class="nav_footer">
-            <li><a href="advertising.asp">Advertising</a></li>
-            <li><a href="business.asp">Business</a></li>
-            <li><a href="search.asp">How Search works</a></li>
-            <li>Carbon neutral since 2007</li>
-            <li><a href="privacy.asp">Privacy</a></li>
-            <li><a href="terms.asp">Terms</a></li>
-            <li><a href="settings.asp">Settings</a></li>
-        </ul>
+    <div class="container3">
+        <div class="d1"><a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1#!/">Advertising</a></div>
+        <div class="d2"><a href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a></div>
+        <div class="d3"><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></div>
+        <div class="d4"><a href="https://sustainability.google/commitments/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=">Carbon neutral since 2007</a></div>
+        <div class="d5"><a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a></div>
+        <div class="d6"><a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a></div>
+        <div class="d7"><a hreh="">Settings</a></div>
     </div>
 </main>
