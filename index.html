@@ -1,30 +1,48 @@
 <!DOCTYPE html>
 <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Josh Rendering of Google</title>
 </head>
-<main>
-    <div class="container">
-        <div a:hover="text-decoration:underline"><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></div>
-        <div><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></div>
-        <div></div>
-        <div><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></div>
-        <div><a href="https://www.google.com/imghp?hl=en&ogbl">Images</a></div>
-        <div onclick=""><img src="Images/9_dots.png"></div>
-        <div onclick=""><img src="Images/Account_Icon.png"></div>
-    </div>
-    <body class="container2">
+
+<body class="flex">
+    <header>
+        <ul class="headerright">
+            <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></div>
+            <li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></div>
+        </ul>
+        <ul class="headerleft">
+            <li><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></div>
+            <li><a href="https://www.google.com/imghp?hl=en&ogbl">Images</a></div>
+            <li onclick=""><img src="Images/9_dots.png"></div>
+            <li onclick=""><img src="Images/Account_Icon.png"></div>
+        </ul>
+    </header>
+
+    <main>
         <img src="Images/logo.png" alt="Google Logo">
-        <p><textarea></textarea></p>
-        <button>Google Search</button>
-        <button>I'm Feeling Lucky</button>
-    </body>
-    <div class="container3">
-        <div><a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1#!/">Advertising</a></div>
-        <div><a href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a></div>
-        <div><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></div>
-        <div><a href="https://sustainability.google/commitments/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=">Carbon neutral since 2007</a></div>
-        <div><a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a></div>
-        <div><a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a></div>
-        <div><a onclick="">Settings</a></div>
-    </div>
-</main>
+        <form id="form">
+           <input class="text">
+           <button type="button" class=""></button>
+           <button type="button" class=""></button>
+        </form>
+        <ul id="search">
+            <li><button class="searchlucky">Google Search</button></li>
+            <li><button class="searchlucky">I'm Feeling Lucky</button></li>
+        </ul>
+    </main>
+
+    <footer class="footer">
+        <ul id="footerright">
+            <li><a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1#!/">Advertising</a></li>
+            <li><a href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a></li>
+            <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+        </ul>
+        <ul id="fooderleft">
+            <li><a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a></li>
+            <li><a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a></li>
+            <li><a onclick="">Settings</a></div>
+        </ul>
+    </footer>
+</body>
