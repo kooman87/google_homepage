@@ -6,43 +6,47 @@
     <title>Josh Rendering of Google</title>
 </head>
 
-<body class="flex">
-    <header>
-        <ul class="headerright">
-            <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></div>
-            <li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></div>
-        </ul>
-        <ul class="headerleft">
-            <li><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></div>
-            <li><a href="https://www.google.com/imghp?hl=en&ogbl">Images</a></div>
-            <li onclick=""><img src="Images/9_dots.png"></div>
-            <li onclick=""><img src="Images/Account_Icon.png"></div>
-        </ul>
-    </header>
+<body>
+    <div class="flex">
+        <header class="head">
+            <ul class="headerright">
+                <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+                <li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
+            </ul>
+            <ul class="headerleft">   
+                <li><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></li>
+                <li><a href="https://www.google.com/imghp?hl=en&ogbl">Images</a></li>
+                <li><img src="Images/9_dots.png"></li>
+                <li><img id="account" src="Images/Account_Icon.png" onclick="signin"></li>
+            </ul>
+        </header>
 
-    <main>
-        <img src="Images/logo.png" alt="Google Logo">
-        <form id="form">
-           <input class="text">
-           <button type="button" class=""></button>
-           <button type="button" class=""></button>
+        <main class="image">
+            <img src="Images/logo.png" alt="Google Logo">
+        </main>
+
+        <form class="form">
+            <button class="center_buttons"><img src="Images/magnify.png"></button>
+            <input class="input">
+            <button class="center_buttons"><img src="Images/mic.png"></button>
         </form>
-        <ul id="search">
+        <ul class="buttons">
             <li><button class="searchlucky">Google Search</button></li>
             <li><button class="searchlucky">I'm Feeling Lucky</button></li>
         </ul>
-    </main>
+    
 
-    <footer class="footer">
-        <ul id="footerright">
+    <footer id="foot">
+        <ul class="footerright">
             <li><a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1#!/">Advertising</a></li>
             <li><a href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a></li>
             <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
         </ul>
-        <ul id="fooderleft">
+        <ul class="footerleft">
             <li><a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a></li>
             <li><a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a></li>
-            <li><a onclick="">Settings</a></div>
+            <li><a href="settings.asp">Settings</a></li>
         </ul>
     </footer>
+    <div>
 </body>
